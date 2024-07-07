@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f8ff; /* Light blue background color */
+}
+
+.inputform {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    width: 100%;
+    padding: 20px;
+    height: 120px;
+}
+
+.inputform .cityinput {
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.inputform #submit {
+    width: 100px;
+    height: 50px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(gold, white);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container {
+    background-color: #E6E6FA; /* Lavender background color */
+    width: 300px;
+    max-height: 200rem;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.citytoDisplay {
+    margin: 20px;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.tempDisplay {
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.humidityDisplay {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.descdisplay {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.weatherEmoji {
+    font-size: 80px;
+}
+
+.errorDisplay {  
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+}
